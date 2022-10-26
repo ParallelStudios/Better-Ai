@@ -1,0 +1,36 @@
+{"intents": [
+    {"tag": "greeting",
+      "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "Hey", "greetings"],
+      "responses": ["Hello sir!", "Good to see you again sir!", "Hi there, how can I help you sir?"]
+    },
+    {"tag": "exit",
+      "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "bye", "cao", "see ya", "quit", "got to go", "I got to leave", "I have to go", "I have to go"],
+      "responses": [""]
+    },
+    {"tag": "create_note",
+    "patterns": ["Create a note", "Make a note", "New note", "can you make a new note?", "create a new note", "make a note"],
+    "responses": [""]
+    },
+    {"tag": "stocks",
+      "patterns": ["what stocks do I own?", "how are my shares?", "what companies am I investing in?", "what am I doing in the markets?"],
+      "responses": [""]
+    },
+    {"tag": "add_todo",
+    "patterns": ["I want to add a new todo", "new todo", "Add a new todo", "Add a todo to my list", "new todo on my list"],
+    "responses": [""]
+    },
+    {"tag": "show_todo",
+    "patterns": ["Show my todos", "what is on my todo list"],
+    "responses": [""]
+    },
+    {"tag": "name_writing",
+    "patterns": ["write my name", "record my name", "remember my name"]
+    },
+    {"tag": "searching",
+    "patterns": ["search", "look up", "Look something up", "google"]
+    },
+    {"tag": "writing",
+    "patterns": ["type", "write", "type something", "write something"]
+    }
+  ]
+  }
